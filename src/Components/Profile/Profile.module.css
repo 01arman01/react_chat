@@ -1,0 +1,16 @@
+.mainContent {
+    background: #d1f5f2;
+    overflow: hidden;
+    border-radius: 10px;
+    min-height: 100px;
+}
+.profile{
+    width: 100%;
+}
+
+.profile .ava{
+    width: 100%;
+}
+
+
+

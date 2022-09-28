@@ -1,0 +1,39 @@
+.content{
+    grid-area:Main ;
+    border-radius: 100px;
+
+}
+.App{
+
+    /*height: 2000px;*/
+    /*background-attachment: ;*/
+    color: #c43795;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+     "header"
+    "SitBar"
+    "Main"
+    "Footer"
+    ;
+
+}
+.App>*{
+    color:black;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+
+}
+
+@media (min-width: 650px) {
+    .App{
+        padding: 5px;
+        grid-template-columns: 1fr 5fr;
+        grid-template-areas:
+         "header header"
+         "SitBar Main"
+         "SitBar Footer"
+    ;
+    }
+
+}

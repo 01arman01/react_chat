@@ -1,0 +1,19 @@
+.nav {
+    grid-area: SitBar ;
+    background: #d1f5f2;
+    border-radius: 10px;
+
+}
+.nav>ul{
+    list-style: none;
+
+
+}
+
+ .item{
+    text-decoration: none;
+    color:green;
+}
+.active{
+    color: #44dc44;
+}

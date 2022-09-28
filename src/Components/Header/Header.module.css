@@ -1,0 +1,26 @@
+.headerGrid{
+    grid-area:header ;
+    background: #d1f5f2;
+    border-radius: 10px;
+}
+.logoSite{
+  padding: 5px;
+}
+.logoSite>a>img{
+     height: 50px;
+}
+/*.headerGrid>ul{*/
+/*    list-style: none;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+/*.headerGrid>ul>li>a{*/
+/*    text-decoration: none;*/
+/*    color: green;*/
+/*    font-weight: bold;*/
+
+/*}*/
+/*.headerGrid>ul>li>a:hover{*/
+/*    color: #042d04;*/
+
+/*}*/

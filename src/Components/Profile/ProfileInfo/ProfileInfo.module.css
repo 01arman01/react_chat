@@ -1,0 +1,8 @@
+.ava{
+    width: 100%;
+}
+.avaBlock{
+    height: 100px;
+    overflow: hidden;
+    background: url("../img/ava.jpeg");
+}
