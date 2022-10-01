@@ -8,17 +8,17 @@ import {Route,Routes,} from 'react-router-dom'
 import Dialogs from "./Components/Dialogs/Dialogs";
 import Error from "./Components/error/Error";
 
-function App() {
+function App( props) {
   return (
     <div className={s.App}>
         <Header/>
         <SitBar/>
         <div className={s.content}>
          <Routes>
-             <Route path='/dialogs/*' element={<Dialogs/>}/>
-             <Route path='/' element={<Profile/>}/>
-         </Routes>
+             <Route path='/dialogs/*' element={<Dialogs messageData={props.messageData} dialogObj={props.dialogObj}/>}/>
+             <Route path='/' element={<Profile postData={props.postData}/>} />
 
+         </Routes>
 
         </div>
         <Footer/>
