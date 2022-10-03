@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.~lock.Untitled 1.odg#
+Untitled 1.odg
 # testing
 /coverage
 
